@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+.calculator, .calculator * {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.calculator {
+  margin: 10px;
+  padding: 5px;
+  flex-direction: column;
+
+  border: 3px solid black;
+  background: #DDD;
+}
+
+.output {
+  align-items: center;
+  height: 35px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background: white;
+  border: 1px solid darkgrey;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.btn {
+  flex: 1;
+  min-width: 30px;
+  justify-content: center;
+}
+
+.btn-op {
+  background: blue;
+  color: white;
+}
